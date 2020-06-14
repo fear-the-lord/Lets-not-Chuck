@@ -34,3 +34,11 @@ In this project I have created 6 different classes of bowlers according to their
 
 ## Results
 <img src = "https://user-images.githubusercontent.com/35571958/84600664-ac778f00-ae98-11ea-9efa-ab601179e8f4.gif"></img>
+
+## References
+<ul>
+  <li>https://learn.ml5js.org/docs/#/reference/posenet</li>
+</ul>
+
+
+<p>&#169; Contributed By: Souvik Ghosh. </p>
