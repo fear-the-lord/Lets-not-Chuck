@@ -29,6 +29,35 @@ PoseNet can be used to estimate either a single pose or multiple poses, meaning 
 
 PoseNet returns a pose object which has a contains the **(x, y) co-ordinates** of all the **17** most important points of the body along with their confidence score. It also returns the entire confidence score of a particular pose. 
 
+### Input: 
+Optional. Number. A HTML video or image element or a p5 image or video element. If no input is provided, the default is to use the video given in the constructor.
+
+### Output
+```bash
+[
+  {
+    pose: {
+      keypoints: [{ position: { x, y }, score, part }, ...],
+      leftAngle: { x, y, confidence },
+      leftEar: { x, y, confidence },
+      leftElbow: { x, y, confidence },
+      ...
+    },
+  },
+  {
+    pose: {
+      keypoints: [{ position: { x, y }, score, part }, ...],
+      leftAngle: { x, y, confidence },
+      leftEar: { x, y, confidence },
+      leftElbow: { x, y, confidence },
+      ...
+    },
+  },
+];
+```
+All the 17 keypoints returned by poseNet are: 
+<img src = "https://user-images.githubusercontent.com/35571958/84601317-daf76900-ae9c-11ea-8a8a-26ebdf8beca1.png"></img>
+
 ## Work Done 
 In this project I have created 6 different classes of bowlers according to their bowling arm and the category (fast, spin and medium fast). I have taken the (x, y) co-oridinates of the shoulder and the wrist, and calculated the angle between them. If the angle exceeds the above mentioned angle in the given category, then it will display **"Chucked"**. 
 
