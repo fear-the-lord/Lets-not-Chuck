@@ -1,4 +1,4 @@
-# Let-s-not-Chuck
+# Let's-not-Chuck
 Chucking Detection using PoseNet in ml5.js
 
 ## Problem Statement 
@@ -17,3 +17,19 @@ A set of tiered tolerance thresholds for the amount of allowable elbow extension
   <li>Write a script in p5.js to implement the PoseNet pre-trained model.</li> 
   <li>Render the same script in the html page.</li>
 </ul>
+
+Copy and paste this line into the html file in which you want to render the ml5.js 
+```bash 
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+```
+## Details about poseNet() 
+PoseNet is a machine learning model that allows for Real-time Human Pose Estimation.
+
+PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.
+
+PoseNet returns a pose object which has a contains the **(x, y) co-ordinates** of all the **17** most important points of the body along with their confidence score. It also returns the entire confidence score of a particular pose. 
+
+## Work Done 
+In this project I have created 6 different classes of bowlers according to their bowling arm and the category (fast, spin and medium fast). I have taken the (x, y) co-oridinates of the shoulder and the wrist, and calculated the angle between them. If the angle exceeds the above mentioned angle in the given category, then it will display **"Chucked"**. 
+
+## Outputs
