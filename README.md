@@ -32,4 +32,5 @@ PoseNet returns a pose object which has a contains the **(x, y) co-ordinates** o
 ## Work Done 
 In this project I have created 6 different classes of bowlers according to their bowling arm and the category (fast, spin and medium fast). I have taken the (x, y) co-oridinates of the shoulder and the wrist, and calculated the angle between them. If the angle exceeds the above mentioned angle in the given category, then it will display **"Chucked"**. 
 
-## Outputs
+## Results
+<img src = "https://user-images.githubusercontent.com/35571958/84600664-ac778f00-ae98-11ea-9efa-ab601179e8f4.gif"></img>
