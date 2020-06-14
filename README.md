@@ -32,7 +32,7 @@ PoseNet returns a pose object which has a contains the **(x, y) co-ordinates** o
 ### Input: 
 Optional. Number. A HTML video or image element or a p5 image or video element. If no input is provided, the default is to use the video given in the constructor.
 
-### Output
+### Output:
 ```bash
 [
   {
