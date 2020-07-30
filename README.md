@@ -1,6 +1,6 @@
 # Let's-not-Chuck
-Chucking Detection using PoseNet in ml5.js
-<a herf = "https://youtu.be/brfo2NRzb78">Click this link to see the demo</a> <br>
+Chucking Detection using PoseNet in ml5.js <br>
+<a href = "https://youtu.be/brfo2NRzb78">Click this link to see the demo</a> <br>
 <img src = "https://img.shields.io/youtube/views/brfo2NRzb78?style=social">
 
 ## Problem Statement 
