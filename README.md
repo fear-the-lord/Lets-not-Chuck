@@ -57,7 +57,7 @@ Optional. Number. A HTML video or image element or a p5 image or video element. 
   },
 ];
 ```
-All the 17 keypoints returned by poseNet are: <img src = "https://user-images.githubusercontent.com/35571958/84601334-011d0900-ae9d-11ea-8d72-3cd9aca86700.png"></img>
+All the 17 keypoints returned by poseNet are: <img src = "https://user-images.githubusercontent.com/35571958/84601334-011d0900-ae9d-11ea-8d72-3cd9aca86700.png"></img>    
 
 ## Work Done  
 In this project I have created 6 different classes of bowlers according to their bowling arm and the category (fast, spin and medium fast). I have taken the (x, y) co-oridinates of the shoulder and the wrist, and calculated the angle between them. If the angle exceeds the above mentioned angle in the given category, then it will display **"Chucked"**. 
